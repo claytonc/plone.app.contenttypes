@@ -4,6 +4,11 @@ Changelog
 1.2.5 (unreleased)
 ------------------
 
+- Do a ``IRichText`` text indexing on all registered SearchableText indexers by
+  doing it as part of the base ``SearchableText`` function. Convert the text
+  from the source mimetype to ``text/plain``.
+  [thet]
+
 - Fix custom migration from and to types with spaces in the type-name.
   [pbauer]
 
