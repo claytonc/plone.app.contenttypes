@@ -4,6 +4,9 @@ Changelog
 1.2.5 (unreleased)
 ------------------
 
+- Allow to pass custom field_migrator methods with custom migrations.
+  [pbauer]
+
 - Fix custom migration from and to types with spaces in the type-name.
   [pbauer]
 
